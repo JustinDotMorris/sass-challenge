@@ -1,0 +1,51 @@
+.card{
+    display: grid;
+    grid-template-areas: 
+    "card__mainimage"
+    "card__innercontainer"
+    ;
+
+    #card__mainimage{
+        width: 100%;
+    }
+
+
+    #card__innercont{
+        padding: 24px 45px;
+
+        #card__innercont__maintext{
+            padding: 15px 0px 15px;
+
+            h2{
+                font-size: 48px;
+                
+            }
+        
+            p{
+                font-size: 16px;
+                padding: 15px 0px;
+            }
+        }
+
+        #card__innercont__buttons{
+    
+            button{
+                border: solid;
+                border-width: 1px;
+                border-radius: 2px;
+                width: 134px;
+                height: 44px;
+                font-size: 16px;
+                text-align: center;
+                margin: 10px 0px 0px 0px;
+            }
+
+            #card__innercont__buttons__booknow{
+                    background-color:#141414;
+                    color: white;
+                    margin-right: 5px;
+            }
+            
+        } 
+    }
+}
